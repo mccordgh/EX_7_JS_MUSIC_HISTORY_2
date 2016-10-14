@@ -19,6 +19,7 @@ ul {
 li {
 	margin: 10px 0;	
 	display: inline;
+	font-size: 1.2em;
 }
 
 td {
@@ -44,7 +45,7 @@ p {
 	overflow: hidden;
 }
 
-.content_nav {
+#content_nav {
 	background-color: #FFB4B0;
 	box-shadow: 0 0 5px 5px #bbbbbb;
 	border-radius: 5px;
@@ -53,7 +54,7 @@ p {
 	margin: 0 0 20px;
 }
 
-.content_options {
+#content_options {
 	background-color:#4DD7FA;
 	box-shadow: 0 0 5px 5px #bbbbbb;
 	border-radius: 5px;
@@ -64,7 +65,7 @@ p {
 	float: left;
 }
 
-.content_playlist {
+#content_playlist {
 	background-color: #FEFAC0;
 	box-shadow: 0 0 5px 5px #bbbbbb;
 	border-radius: 5px;
@@ -77,17 +78,17 @@ p {
 	overflow-y: scroll;
 }
 
-.song_options {
+#song_options {
 	padding: 0 0 10px;
 	margin: 10px auto 0;
 	width: 100%;
 }
 
-.song_options li {
+#song_options li {
 	padding: 0 10px 10px;
 }
 
-.filter_button {
+#filter_button {
 	background-color: lightgrey;
 	padding: 10px 50px;
 	border: 2px solid #999999;
